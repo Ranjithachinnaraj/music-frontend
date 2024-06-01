@@ -5,22 +5,20 @@ import LibraryPage from "./LibraryPage";
 import SearchPage from './SearchPage';
 
  
-function TabSwitch() {
-
-    const [pageTab,setPageTab]=useState("Home")
+function TabSwitch({ pageTab }) {
 
 
     switch (pageTab) {
         case "Home":
-            return <HomePage setPageTab={setPageTab}/>;
+            return <HomePage />;
         case "Library":
-            return <LibraryPage setPageTab={setPageTab}/>;
+            return <LibraryPage />;
         case "About":
-            return <AboutPage setPageTab={setPageTab}/>;
+            return <AboutPage />;
         case "Search":
-            return <SearchPage setPageTab={setPageTab}/>;
+            return <SearchPage />;
         default:
-            return <HomePage setPageTab={setPageTab}/>;
+            return <HomePage />;
     }
 }
 

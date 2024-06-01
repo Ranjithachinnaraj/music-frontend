@@ -308,7 +308,6 @@ input:valid~ :valid {
 }
 
 .footer {
-    color: #fff;
     display: flex;
     justify-content: space-evenly;
 
@@ -467,4 +466,7 @@ input:valid~ :valid {
 
     text-decoration: 3px underline;
 
+}
+button {
+    color: black;
 }

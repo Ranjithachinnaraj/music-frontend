@@ -2,7 +2,7 @@ import './Style.css';
 import Footer from './Footer';
 import { useState } from 'react';
 
-function HomePage({ setPageTab }) {
+function HomePage() {
   
   //   const [isPlaying, setIsPlaying] = useState(false);
   
@@ -147,8 +147,6 @@ function HomePage({ setPageTab }) {
             </div>
           </div>
         </div>
-        {/* footer */}
-        <Footer />
       </div>
 
     </>
