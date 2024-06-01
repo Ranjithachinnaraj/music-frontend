@@ -1,16 +1,14 @@
-// MainApp.jsx
-import { useState } from "react";
-import NavBar from "./NavBar";
-// import SwitchPage from "./SwitchPage";
-// import WelcomePage from "./WelcomePage";
-import TabSwitch from "./TabSwitch";
 
+import { useState } from "react";
+import TabSwitch from "./TabSwitch";
+import Footer from "./Footer";
 function MainApp() {
-    const [tab, setTab] = useState("welcome");
+    const [pageTab,setPageTab]=useState("Home")
+
     return (
         <>
-            <NavBar setTab={setTab}  />
-            <TabSwitch tab={tab} />
+            <TabSwitch pageTab={pageTab}/>
+            <Footer setPageTab={setPageTab}></Footer>
         </>
     );
 }

@@ -2,7 +2,7 @@ import Footer from './Footer';
 import './Style.css';
  
 
-function  AboutPage({ setPageTab }) {
+function  AboutPage() {
     return (
        <>
         <div className="about">
@@ -33,8 +33,6 @@ function  AboutPage({ setPageTab }) {
     <button>EDIT PROFILE</button>
     <button>LOG OUT</button>
   </div>
-   
-   <Footer/>
 </div>
 
        </>

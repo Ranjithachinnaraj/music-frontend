@@ -2,7 +2,7 @@ import Footer from './Footer';
 import './Style.css';
  
 
-function LibraryPage({setPageTab}) {
+function LibraryPage() {
     return (
         <>
             <div className="home">
@@ -148,8 +148,6 @@ function LibraryPage({setPageTab}) {
                         </div>
                     </div>
                 </div>
-                {/* footer */}
-                <Footer/>
             </div>
 
         </>

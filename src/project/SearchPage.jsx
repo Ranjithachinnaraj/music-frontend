@@ -1,6 +1,6 @@
 import Footer from './Footer';
 import './Style.css';
-function SearchPage({setPageTab}) {
+function SearchPage() {
     return (
         <>
         <div className="home">
@@ -147,8 +147,6 @@ function SearchPage({setPageTab}) {
       </div>
     </div>
   </div>
-  {/* footer */}
-   <Footer/>
 </div>
 
         </>
